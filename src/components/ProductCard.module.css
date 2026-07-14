@@ -1,0 +1,81 @@
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: default;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.imageWrapper {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  border-radius: 8px;
+}
+
+.imageWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  object-fit: contain;
+}
+
+.content {
+  flex: 1;
+  margin-top: 12px;
+  padding: 0 4px;
+}
+
+.nameGroup {
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.weightText {
+  white-space: nowrap;
+}
+
+.controlsGroup {
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+
+.quantity {
+  min-width: 24px;
+  text-align: center;
+}
+
+.priceWrapper {
+  margin-top: 4px;
+}
+
+.addButton {
+  flex: 1;
+  margin-left: 16px;
+  color: #2a7a3f;
+}
+
+.btnMinus {
+  min-width: 28px;
+  height: 28px;
+  padding: 0;
+  background-color: #e8e8e8;
+  color: #666;
+}
+
+.btnPlus {
+  min-width: 28px;
+  height: 28px;
+  padding: 0;
+  background-color: #d0d0d0;
+  color: #333;
+}

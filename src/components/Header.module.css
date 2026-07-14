@@ -1,0 +1,52 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logoWrapper {
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  padding: 2px 0 2px 16px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logoText {
+  color: #000000;
+}
+
+.logoAccent {
+  background-color: #74c186;
+  border-radius: 50px;
+  padding: 4px 24px;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.logoAccentText {
+  color: white;
+}
+
+.cartButton {
+  position: relative;
+}
+
+.cartBadge {
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  color: #2a7a3f;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,40 @@
+.page {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+
+.pageFull {
+  composes: page;
+  min-height: 100vh;
+}
+
+.catalogTitle {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.skeletonWrapper {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.skeletonImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skeletonImage img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+}
+
+.skeletonPlaceholder {
+  flex: 1;
+  min-height: 80px;
+}
